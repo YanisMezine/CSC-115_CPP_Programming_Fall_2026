@@ -40,8 +40,7 @@ int main() {
     cin >> dancing;
 
     // Input validation section
-    if (cin.fail() ||
-        math < 0 || math > 100 ||
+    if (math < 0 || math > 100 ||
         science < 0 || science > 100 ||
         english < 0 || english > 100 ||
         coding < 0 || coding > 100 ||
