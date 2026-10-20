@@ -27,7 +27,7 @@ int main()
     cin >> height;
 
     // Input validation section
-    if (cin.fail() || length <= 0 || width <= 0 || height <= 0) {
+    if (length <= 0 || width <= 0 || height <= 0) {
         cout << "Crate dimensions must be positive." << endl;
         return 0;
     }
